@@ -1,3 +1,15 @@
 /* 
     Theme Name: Le thème ultime
 */
+
+/* Path: wp-content/themes/themeperso/functions.php */
+
+body {
+    background-color: rgb(0, 0, 0);
+    color: aliceblue;
+}
+
+a {
+    color: crimson;
+    text-decoration: none;
+}

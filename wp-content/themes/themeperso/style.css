@@ -4,12 +4,68 @@
 
 /* Path: wp-content/themes/themeperso/functions.php */
 
-body {
-    background-color: rgb(0, 0, 0);
-    color: aliceblue;
+body{
+    margin: 0;
 }
 
 a {
     color: crimson;
     text-decoration: none;
+}
+
+section {
+    display: block;
+    margin: auto;
+}
+
+#article {
+    display: flex;
+    justify-content: space-around;
+    max-width: 80%;
+}
+
+article {
+    margin: 10px;
+    max-height: 100%;
+}
+    
+
+header {
+    background-color: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+
+}
+
+#articletitle {
+    text-align: center;
+}
+
+
+figure {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    background-color: #f4f4f4;
+    border: none;
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+}
+
+button:hover {
+    background-color: #e4e4e4;
+}
+
+#texte p{
+    text-align: justify;
+}
+
+img {
+    height: 30vh;
+    object-fit: cover;
 }

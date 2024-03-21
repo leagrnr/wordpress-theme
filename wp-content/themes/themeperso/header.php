@@ -15,4 +15,4 @@
             </a>
         </h1>
         <p><?php bloginfo('description'); ?></p>
-    </header>
+</header>

@@ -16,3 +16,5 @@
         </h1>
         <p><?php bloginfo('description'); ?></p>
 </header>
+
+<?php get_template_part('template-parts/navigation'); ?>

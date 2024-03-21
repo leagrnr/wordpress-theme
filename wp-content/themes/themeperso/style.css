@@ -69,3 +69,17 @@ img {
     height: 30vh;
     object-fit: cover;
 }
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #f4f4f4;
+    margin: 0;
+}
+
+nav li {
+    text-decoration: none;
+    list-style-type: none;
+    text-transform: uppercase;
+}
